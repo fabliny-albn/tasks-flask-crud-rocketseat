@@ -1,0 +1,32 @@
+Métodos HTTP comuns:
+GET - Retorna DADOS de um recurso específico no servidor.
+POST - Envia dados ao servidor para CRIAR um novo recurso.
+PUT - Envia dados ao servidor para ATUALIZAR todo um recurso existente.
+DELETE - Remove um recurso específico do servidor.
+
+Menos usados:
+HEAD - Retorna apenas os CABEÇALHO de resposta de um recurso, sem o corpo.
+PATCH - Envia dados ao servidor para ATUALIZAR parcialmente um recurso existente.
+
+Códigos de status HTTP comuns:
+
+100 - 199: Informational responses - Indicam que a solicitação foi recebida e o processo continua.
+200 - 299: Successful responses - Indicam que a solicitação foi bem-sucedida.
+300 - 399: Redirection messages - Indicam que o cliente deve tomar mais ações para completar a solicitação.
+400 - 499: Client error responses - Indicam que houve um erro na solicitação do cliente.
+500 - 599: Server error responses - Indicam que o servidor falhou ao processar uma solicitação válida.
+
+Exemplos de códigos de status específicos:
+200 OK - A solicitação foi bem-sucedida.
+201 Created - O recurso foi criado com sucesso.
+204 No Content - A solicitação foi bem-sucedida, mas não há conteúdo para retornar.
+400 Bad Request - A solicitação é inválida ou malformada.
+401 Unauthorized - A autenticação é necessária para acessar o recurso.
+403 Forbidden - O cliente não tem permissão para acessar o recurso.
+404 Not Found - O recurso solicitado não foi encontrado no servidor.
+500 Internal Server Error - Ocorreu um erro no servidor ao processar a solicitação.
+502 Bad Gateway - O servidor recebeu uma resposta inválida de um servidor upstream.
+503 Service Unavailable - O servidor está temporariamente indisponível, geralmente devido a manutenção ou sobrecarga.
+504 Gateway Timeout - O servidor não recebeu uma resposta a tempo de um servidor upstream.
+
+
